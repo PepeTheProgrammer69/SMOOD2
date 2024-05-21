@@ -1,0 +1,195 @@
+.table-container {
+    width: 50vw;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #4b9500;
+}
+
+.NTCol, .tr-NT {
+    border: 3px solid #4b9500;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+.NTCol {
+    background-color: #f2f2f2;
+}
+
+/* CSS for styling the table */
+.table-container {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-container td, .table-container th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Styling specific to the table layout */
+.table-container th:first-child, .table-container td:first-child {
+    width: 20%;
+}
+
+.table-container th:nth-child(2), .table-container td:nth-child(2) {
+    width: 20%;
+}
+
+.table-container th:nth-child(3), .table-container td:nth-child(3) {
+    width: 30%;
+}
+
+.table-container th:nth-child(4), .table-container td:nth-child(4) {
+    width: 30%;
+}
+
+/* CSS for styling the table container */
+.table-container {
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* CSS for styling the table */
+.table-container table.dataTable {
+    background-color: #f9f9f9 !important; /* Set the background color for the table */
+}
+
+.table-container table.dataTable td, .table-container table.dataTable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-container table.dataTable th {
+    background-color: #f2f2f2 !important;
+}
+
+.table-container table.dataTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container table.dataTable tr:hover {
+    background-color: #e6e6e6;
+}
+
+.hVPalX {
+    background-color: gold !important;
+}
+
+.fAiwtk {
+    margin: 0 4px;
+    font-size: 14px !important;
+}
+
+.kUwhdZ {
+    cursor: pointer;
+    height: 24px;
+    max-width: 100%;
+    user-select: none;
+    padding-left: 8px;
+    padding-right: 24px;
+    box-sizing: content-box;
+    font-size: 14px !important;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    direction: ltr;
+    flex-shrink: 0;
+}
+
+.iOgnCO {
+    margin: 0 24px;
+    font-size: 14px !important;
+}
+
+.lnOUep {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+}
+
+.cLMgpj {
+    flex-grow: 1 !important;
+    flex-shrink: 0;
+    flex-basis: 0;
+
+}
+
+.faZveH {
+    font-weight: bold;
+    flex-grow: 0.6 !important;
+    flex-shrink: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    min-width: 100px;
+}
+
+.news-table {
+    width: 90rem;
+}
+
+.evaFvq {
+     position: relative;
+     box-sizing: border-box;
+     overflow: hidden;
+     display: flex;
+     flex: 1 1 auto;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     flex-wrap: wrap;
+     font-size: 22px;
+     color: rgba(0, 0, 0, 0.87);
+     background-color: gold !important;
+     min-height: 56px;
+     padding-left: 16px;
+     padding-right: 8px;
+ }
+
+.erkbiK div:first-child {
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 3rem auto;
+    border-radius: 0.200rem;
+}
+
+.dThvtw {
+    font-weight: bold;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    min-width: 100px;
+}

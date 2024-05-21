@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  /*display: flex;*/
+  background: #eee;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  /*overflow-x: hidden;*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.news-container {
+  display: flex;
+  width: 800px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
+  overflow: hidden;
+  color: gold;
+  float: right;
+  border: 2px solid yellow;
+  margin-right: 200px;
+  text-align: center;
+  align-items: center;
+  border-radius: 0.375rem;
+}
+
+.news-box {
+  position: relative;
+  display: flex;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.trending-label {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.headline {
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.logo {
+  font-family: "McLaren", "Comic Sans MS";
+}
+
+.logo-text {
+  font-size: 2.3rem;
+  text-decoration: underline #1fa2ff;
+}
+
+.lineChartGraph {
+  float: right;
+}
+
+.primary-frame {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Header and NavComp auto-sized, rest of the content fills the remaining space */
+  min-height: 100vh; /* Ensure the primary frame covers the entire viewport height */
+  background: #262931;
+}
+
+
+.secondary-frame {
+  position: relative;
+  display: flex;
+  flex-shrink: 4;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: auto;
+}
+
+.NotesClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+
+
+.navbar-custom {}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {}
+
+
+.navbar-custom .navbar-nav .nav-link {}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {}
+
+.navbar-nav {
+  width: 500px;
+}
+
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1920px;
+  }
+}
+
+.nav-link {
+  font-family: "Yu Gothic UI", "Helvetica Neue", Arial, Helvetica, sans;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1.2rem;
+  color: gold !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.canvas-comp {
+  position: absolute;
+  display: inline-block;
+  background-color: #4b9500;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 13rem;
+  height: 900px;
+  width: 1600px;
+  border: 2px solid black;
+}
+
+.Pawry {
+  position: relative;
+  display: inline-block;
+  background-color: #4b9500;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 13rem;
+  height: 900px;
+  width: 1600px;
+  border: 2px solid black;
+}
+
+.nav-Text {
+  color: #4b9500;
+}
+
+canvas {
+  height: 400px;
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.navbar.navbar-expand.navbar-light.bg-transparent {
+  height: 70px;
+}
+

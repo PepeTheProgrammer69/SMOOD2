@@ -1,0 +1,28 @@
+.logo-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #1a1919;
+    margin: auto ;
+    padding: 20px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-and-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header and nav appear above other content */
+    /* Add your desired background color */
+    width: 100%;
+}
+
+.logo-header h1 {
+    color: gold;
+    font-family: "Albert";
+    font-weight: 200;
+    margin: 0; /* Remove default margin */
+}

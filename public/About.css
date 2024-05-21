@@ -1,0 +1,133 @@
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 45vh;
+    width: 100%;
+    background: #02182B;
+    border-radius: 0.800rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spy-logo {
+    color: #FDFFFC;
+    font-size: 30px;
+}
+
+.spy-introduction {
+    height: 500px;
+    width: 600px;
+    color: #FDFFFC;
+}
+
+.spi-text-p {
+    color: #FDFFFC;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 1px;
+    border: 2px solid #FFD700;
+    border-radius: .375rem;
+    width: 550px;
+}
+
+.SAM {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+div#SameerKhan {
+    min-width: 200px;
+    min-height: 200px;
+    float: left;
+    padding: 13px;
+    display: inline-block;
+    margin-right: 115px;
+}
+
+.Shahmir {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+div#ShahmirKhan {
+    height: 200px;
+    width: 226px;
+    float: right;
+    padding: 13px;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.SAM-P {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    padding: 13px;
+}
+
+.Shahmir-P {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    padding: 13px;
+}
+
+.social-links {
+    border-radius: .375rem;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 10px;
+    border: #0c85d0 2px solid;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: nowrap;
+    color: #0e1b30;
+}
+
+.linkUp {
+    margin-right: 7.5rem;
+    margin-left: 0.9rem;
+    color: #FDFFFC;
+}
+
+.link-icons {
+    justify-content: space-evenly !important;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    /*height: 30px;*/
+    /*width: 30px;*/
+}
+
+.li-items-intro {
+    padding-bottom: 10px;
+    color: #FDFFFC;
+}
+
+.resize-icons {
+    height: 30px;
+    width: 30px;
+}
+
+.d-flex.link-icons a {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.intro-caption {
+    color: #FDFFFC;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.meatTheBeat {
+    width: 400px;
+    text-align: center;
+}

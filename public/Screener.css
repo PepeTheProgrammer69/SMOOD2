@@ -1,0 +1,69 @@
+.list-group-item {
+    width: 300px
+}
+
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ticker-main {
+    width: 100%;
+    display: flex;
+}
+
+.ticker-main-child {
+    display: flex;
+    justify-content: center;
+}
+
+.table thead th {
+    border: 1px solid #ddd;
+    background-color: #f0f0f0; /* Light gray background for header */
+    padding: 10px; /* Add padding to header cells */
+    text-align: center; /* Center-align text in header cells */
+}
+
+
+.table tbody td {
+    border: 1px solid #ddd; /* Border for data cells */
+    padding: 10px; /* Add padding to data cells */
+    text-align: center;
+    width: 100px;
+}
+
+/* Style for table data rows */
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+
+}
+
+/* Style for table data rows */
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+.container.ticker-main-child {
+    margin-bottom: 19rem;
+}
+
+@media (min-width: 768px) {
+<style>
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 71.66666667%;
+}
+}
+
+@media (min-width: 1200px) {
+<style>
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 71.66666667%;
+
+}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "postgres-js-example",
+  "version": "1.0.0",
+  "description": "Example of connecting to a PostgreSQL database using JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}

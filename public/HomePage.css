@@ -1,0 +1,141 @@
+.secondary-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 0 0 55%; /* 30% width */
+    margin-left: 3rem;
+}
+
+.right {
+    flex: 1;
+    position: fixed;
+    right: 0;
+    top: 10rem;
+}
+
+.left-content {
+    /* Style for left content */
+}
+
+.right-content {
+    /* Style for right content */
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.about-intro-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-intro-text-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.animated-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: white; /* Set the arrow color to white */
+    animation: arrow-pulse 2s infinite;
+}
+
+@keyframes arrow-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.bar.vert {
+    width: 2px;
+    height: 100px;
+    background-color: white; /* Set the bar color to white */
+    margin-right: 20px;
+}
+
+.about-intro-text {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#title3 {
+    color: gold;
+}
+
+.spy-ts {
+    color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ts-image {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.charting-comp {
+    /* Assuming you want the component to take full height of the page */
+    height: 100vh;
+    /* Adjust the width of the component as needed */
+    width: 40%; /* Adjust this value according to your preference */
+    /* Positioning the component to the right */
+    position: fixed;
+    right: 0;
+    /* Adding some padding for better appearance */
+    padding: 20px;
+
+    /*border: 1px solid #ccc;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HomePage.css */
+.active {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    color: white;
+}
+
+.active:hover,
+.active:focus {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    color: white;
+}
+
+.btn-group-ts {
+    margin-bottom: 0.5rem;
+}
+
+.market-stats-table {
+    margin-top: 40px;
+    border: 2px solid gold;
+    padding: 10px;
+    border-radius: 0.375rem;
+}
+
+.market-stats-header {
+    font-weight: bold;
+    color: gold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
